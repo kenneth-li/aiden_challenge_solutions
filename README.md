@@ -11,7 +11,7 @@ Natural Language Toolkit (NLTK)* to give me access to a wide range of
 corpus, one of which was the Carnegie Mellon University Pronouncing
 Dictionary, which contains information on word pronunciations.
 
-* because I installed NLTK, num_to_word.py will not work on your computers
+*because I installed NLTK, num_to_word.py will not work on your computers
 without nltk installed. http://www.nltk.org/install.html has instructions
 for installation
 
@@ -25,7 +25,7 @@ word was determined by calculating frequencies of words from the Brown Corpus,
 which is also why my program is relatively slow/inefficient. It would be great
 if I had found a corpus that maps words to word frequency in modern English,
 which would be the difference between iteration millions (size of Brown corpus)
-and tens of thousands (number of English words).
+and tens of thousands (number of English words) of times.
 
 An additional feature I would have liked to implement is word commonality
 optimization with number place-holders. What I mean by this is that I'd like
@@ -39,6 +39,7 @@ easy to remember because they are sports figures).
 That would allow my program to input a number like 32662318120 and return
 
 3 "inch" "chin" 1 "foot" "nose"
+
 3   26    623   1   81     20
 
 
